@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// 29/7/20 23:20 PRO
+// SUCCESS BAR STATE IS 2 SUBMITS BEHIND !!1
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+/* 
+CAN WE NAME PROPS AND METHODS THE SAME IN SIBLING OR ACROSS COMPONENTS? 
+*/
+
+import React, { Component } from "react";
+import Game from "./Game";
+// import "./App.css";
+
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+       <Game />
+      </div>
+    );
+  }
 }
 
 export default App;

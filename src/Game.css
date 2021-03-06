@@ -1,0 +1,67 @@
+/* .start-button {
+    width: 50px;
+    height: 50px;
+    
+    margin: 40vh auto;
+    display: block;
+} */
+
+.start-button {
+    width: 100px;
+    height: 100px;
+    margin: 40vh auto;
+    display: block;
+
+    background-color: #42cc8c;
+    /* padding:0.46em 1.6em; */
+    border:0.2em solid #000000;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    /* font-size: 18px; */
+    /*  color:#000000; */
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    /*  background-color:#FFFFFF; */
+    text-align:center;
+    transition: all 0.5s;
+    }
+.start-button:hover{
+     text-shadow: 0 0 2em rgba(255,255,255,1);
+     color:#FFFFFF;
+     border-color:#FFFFFF;
+    }
+
+
+    /*=== Trigger  ===*/
+.animate {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+    /*=== FADE IN  ===*/
+@-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  .fadeIn {
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+  }

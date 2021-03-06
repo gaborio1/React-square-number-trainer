@@ -1,0 +1,43 @@
+.Cell {
+    border: none;
+    cursor: pointer;
+    width: 56px;
+    height: 56px; 
+    /* width: 3.0vw;
+    height: 3.0vw;  */
+    
+    outline: none;
+    color: #000000;
+    /* font-weight: 900; */
+    /* height: 10%; 
+    width: 10%; */
+    font-size: 1.1rem;
+    /* letter-spacing: 1px; */
+    /* box-shadow: 2px 2px #06679b; */
+    border-radius:2px;
+
+
+    /* height: 10%;
+    width: 10%; */
+
+    /* THIS WORKS */
+    /* margin: 0.25%; */
+
+    margin: 2px;
+    background-color: rgb(127, 165, 237);
+}
+
+.Cell:hover {
+    /* background-color: salmon; */
+    background-color: sandybrown;
+
+}
+
+.Cell-clicked {
+    background-color: sandybrown;
+}
+
+.Wrong {
+    background-color: salmon;
+
+}
