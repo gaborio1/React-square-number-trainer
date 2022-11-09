@@ -1,10 +1,9 @@
-
-Hello!
+Hello from macbook!
 
 !!! Error message "error:0308010C:digital envelope routines::unsupported" !!!
 source: https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
 "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+"start": "react-scripts --openssl-legacy-provider start",
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
